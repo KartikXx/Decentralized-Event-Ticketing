@@ -11,6 +11,8 @@ This project is built with .
 - shadcn-ui
 - Tailwind CSS
 
+  NOTE: Made a basic UI with lovale.dev
+
 
 
 
