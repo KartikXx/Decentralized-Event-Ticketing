@@ -61,7 +61,7 @@ const Index = () => {
         <div className="absolute top-[30%] right-[20%] w-20 h-20 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 rounded-full blur-xl" />
         <div className="absolute bottom-[20%] left-[30%] w-24 h-24 bg-gradient-to-r from-orange-500/20 to-yellow-500/20 rounded-full blur-xl" />
         
-        {/* Floating Blockchain Elements */}
+        {/* Floating Cryptocurrency Elements - Only near header */}
         <img 
           src="https://cryptologos.cc/logos/ethereum-eth-logo.png" 
           alt="Ethereum"
@@ -70,11 +70,8 @@ const Index = () => {
         <img 
           src="https://cryptologos.cc/logos/bitcoin-btc-logo.png" 
           alt="Bitcoin"
-          className="absolute bottom-[25%] right-[25%] w-10 h-10 opacity-50"
+          className="absolute top-[20%] left-[20%] w-10 h-10 opacity-50"
         />
-        <div className="absolute top-[40%] left-[20%] w-16 h-16 glass-effect rounded-xl flex items-center justify-center">
-          NFT
-        </div>
       </div>
 
       <Navigation />
